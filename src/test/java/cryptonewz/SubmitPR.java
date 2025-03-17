@@ -92,7 +92,7 @@ public class SubmitPR
 		driver.findElement(By.xpath("(//label[contains(text(),'Attach file ')])")).click();
 		Thread.sleep(8000);
 		driver.findElement(By.xpath("(//button[contains(text(),'Submit')])")).click();
-		Thread.sleep(30000);
+		Thread.sleep(3000);
 		WebElement button = driver.findElement(By.xpath("(//p[contains(text(),'Name can only contain letters and spaces')])"));   
 		if(button.isEnabled())
 			
