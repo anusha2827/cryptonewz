@@ -37,7 +37,7 @@ public class contactUs
 	driver.findElement(By.xpath("(//textarea[@name='contactMessage'])")).sendKeys("anu1@mailinator.com"); //Name can only contain letters and spaces.
 	Thread.sleep(8000);
 	driver.findElement(By.xpath("(//button[contains(text(),'Submit')])")).click();
-	Thread.sleep(20000);
+	Thread.sleep(2000);
 	driver.findElement(By.xpath("(//button[contains(text(),'Verify OTP')])")).click();
 	Thread.sleep(2000);
 	WebElement button = driver.findElement(By.xpath("(//p[contains(text(),'OTP verified successfully. Thank you for contacting us.')])"));   
